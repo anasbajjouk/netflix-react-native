@@ -17,9 +17,11 @@
         },
         "assetBundlePatterns": ["**/*"],
         "ios": {
+            "userInterfaceStyle": "dark",
             "supportsTablet": true
         },
         "android": {
+            "userInterfaceStyle": "dark",
             "adaptiveIcon": {
                 "foregroundImage": "./assets/images/adaptive-icon.png",
                 "backgroundColor": "#FFFFFF"
