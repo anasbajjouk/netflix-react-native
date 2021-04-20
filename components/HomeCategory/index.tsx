@@ -19,6 +19,7 @@ const HomeCategory = (props: HomeCategoryProps) => {
       <Text style={styles.title}>{category.title}</Text>
       <FlatList
         horizontal
+        showsHorizontalScrollIndicator={false}
         data={category.movies}
         renderItem={({ item }) => (
           <Image
